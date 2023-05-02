@@ -2,7 +2,7 @@ import os
 import random
 import string
 
-file_name = "****.txt"
+file_name = "example.txt"
 
 if os.path.isfile(file_name):
     user_input = input("The file already exists. Do you want to continue? (y/n): ")
